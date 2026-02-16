@@ -1,233 +1,201 @@
 
 ---
 
-```markdown
+
+
+```
 # 🚀 SEM_CJ_AJAI_2026
 
-Welcome to the **Java Core Practice Repository** 👨‍💻🔥  
+Welcome to the Java Core Practice Repository 👨‍💻🔥
 
 This repository is created to help students:
-- Build strong Java fundamentals
+
+- Learn Java fundamentals
 - Practice daily coding
-- Learn Git & GitHub properly
-- Follow real-world development workflow
+- Learn Git & GitHub
+- Improve consistency
 
 ---
 
-# 📂 Repository Structure
+## 📅 Daily Questions
 
-```
+Every day, a new question will be uploaded inside:
 
-SEM_CJ_AJAI_2026/
-│
-├── Daily problems/
-│ ├── Question DD-MM-YYYY/
-│ │ └── Q1.md
-│ ├── Solution DD-MM-YYYY/
-│
-├── Java Core/
-│
-├── Static Unit 1/
-│ ├── 1st.md
-│ ├── 2nd.md
-│ ├── 3rd.md
-│ ├── 4th.md
-│ ├── 5th.md
-│ └── Basic.java
+Daily problems → Question (with today’s date)
 
-```
+Students must:
+
+1. Solve the question.
+2. Upload their solution.
+3. Create a Pull Request (PR).
+
+Questions will be updated daily. Make sure you check regularly.
 
 ---
 
-# 📅 Daily Practice System
+## 🛠 How to Submit Your Solution (Step-by-Step)
 
-✅ New questions will be uploaded **every day** inside:
-
-```
-
-Daily problems → Question DD-MM-YYYY
-
-```
-
-🎯 Students must:
-1. Solve the daily question
-2. Upload their solution in the correct folder
-3. Raise a Pull Request (PR)
-
-This helps you:
-- Build discipline
-- Improve problem-solving
-- Learn industry Git workflow
+Follow these steps carefully.
 
 ---
 
-# 🛠 How to Submit Your Solution (STEP-BY-STEP GUIDE)
+### ✅ STEP 1: Fork the Repository
 
-Follow these steps carefully 👇
-
----
-
-# 🔹 STEP 1: Fork the Repository
-
-1. Open the original repository.
-2. Click **Fork** (top right corner).
-3. This creates a copy of the repository in your GitHub account.
+1. Open this repository on GitHub.
+2. Click the **Fork** button (top right).
+3. This creates a copy in your GitHub account.
 
 ---
 
-# 🔹 STEP 2: Clone Your Forked Repository
+### ✅ STEP 2: Clone Your Fork
 
 Open Terminal / Git Bash and run:
 
-```bash
-git clone https://github.com/YOUR-USERNAME/SEM_CJ_AJAI_2026.git
 ```
 
-Move inside the project folder:
 
-```bash
+git clone [https://github.com/YOUR-USERNAME/SEM_CJ_AJAI_2026.git](https://github.com/YOUR-USERNAME/SEM_CJ_AJAI_2026.git)
+
+```
+
+Then move into the folder:
+
+```
+
 cd SEM_CJ_AJAI_2026
+
 ```
 
 ---
 
-# 🔹 STEP 3: Create a New Branch (IMPORTANT)
+### ✅ STEP 3: Create a New Branch
 
-⚠️ Never push directly to `main` branch.
+⚠️ Important: Do NOT push directly to main branch.
 
-Create a new branch:
+Create a new branch like this:
 
-```bash
+```
+
 git checkout -b solution-DD-MM-YYYY-yourname
+
 ```
 
 Example:
 
-```bash
+```
+
 git checkout -b solution-17-02-2026-rahul
+
 ```
 
 ---
 
-# 🔹 STEP 4: Add Your Solution File
+### ✅ STEP 4: Add Your Solution File
 
 Go to:
 
-```
-Daily problems → Solution DD-MM-YYYY
-```
+Daily problems → Solution (with today’s date)
 
-Create your file inside that folder:
+Create a new file:
 
 ```
+
 YourName_Q1.java
+
 ```
 
 Example:
 
 ```
+
 Rahul_Q1.java
+
 ```
 
 Write your Java solution inside it.
 
 ---
 
-# 🔹 STEP 5: Add Your Changes
+### ✅ STEP 5: Add Your Changes
 
-```bash
+```
+
 git add .
+
 ```
 
 ---
 
-# 🔹 STEP 6: Commit Your Changes
+### ✅ STEP 6: Commit Your Changes
 
-```bash
+```
+
 git commit -m "Added solution for DD-MM-YYYY by YourName"
+
 ```
 
 Example:
 
-```bash
+```
+
 git commit -m "Added solution for 17-02-2026 by Rahul"
+
 ```
 
 ---
 
-# 🔹 STEP 7: Push Your Branch
+### ✅ STEP 7: Push Your Branch
 
-```bash
+```
+
 git push origin solution-DD-MM-YYYY-yourname
+
 ```
 
 ---
 
-# 🔹 STEP 8: Raise Pull Request
+### ✅ STEP 8: Create Pull Request
 
 1. Go to your forked repository on GitHub.
-2. Click  **Compare & Pull Request** .
-3. Add title:
+2. Click **Compare & Pull Request**.
+3. Add a proper title:
+   
+   Example:
+```
+
+Solution for 17-02-2026 - Rahul
 
 ```
-Solution for DD-MM-YYYY - YourName
-```
 
-4. Click  **Create Pull Request** .
+4. Click **Create Pull Request**.
 
 Done ✅
 
 ---
 
-# 📌 Submission Rules
+## 📌 Rules
 
-✔️ Use proper class name
-✔️ Code must compile
-✔️ Add comments in code
-✔️ Follow Java naming conventions
-✔️ One question per file
-✔️ Do NOT modify other students' files
+- Write clean and readable code.
+- Use proper class name.
+- Do not modify other students’ files.
+- One question = one file.
+- Always create a new branch.
 
 ---
 
-# 📛 Naming Conventions
+## 🎯 Goal
 
-### 📄 File Name Format
+Solve daily.  
+Push daily.  
+Improve daily.  
 
-```
-YourName_Q1.java
-```
+Consistency is more important than motivation.
 
-### 🌿 Branch Name Format
+---
 
-```
-solution-DD-MM-YYYY-yourname
+Maintained by: Ajai Raj
 ```
 
 ---
 
-# 🎯 Why We Use Pull Requests?
-
-This helps you learn:
-
-* Real-world development workflow
-* Version control
-* Collaboration
-* Code review system
-* Industry-level standards
-
----
-
-# 📈 Goal of This Repository
-
-Daily consistency > Motivation
-
-Solve daily.
-Push daily.
-Improve daily.
-
-Let’s build strong Java fundamentals together 💪🔥
-
----
-
-👨‍🏫 Maintained by: Ajai Raj
+If you want, I can also give you a **very short beginner Git cheat sheet** to add below this so they never get confused.
